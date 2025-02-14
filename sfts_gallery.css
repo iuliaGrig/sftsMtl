@@ -15,7 +15,6 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: auto;
-    gap: 0.5rem;
     align-content: center;
 }
 
@@ -28,4 +27,8 @@
     font-size: 1em;
     font-weight: 300;
     color: #f65f5f;
+    max-width: 250px;
+    text-align: center;
+    align-items: center;
 }
+
