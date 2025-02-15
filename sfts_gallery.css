@@ -22,6 +22,12 @@
     width: 250px;
 }
 
+.galleryImages figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .galleryImages figcaption {
     font-family: "Noto Sans", serif;
     font-size: 1em;
@@ -30,5 +36,8 @@
     max-width: 250px;
     text-align: center;
     align-items: center;
+    padding-top: 20px;
 }
+
+
 
