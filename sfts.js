@@ -50,11 +50,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
     menuIcon.addEventListener('click', function() {
         menu.classList.toggle('active');
+        menuIcon.classList.toggle('rotated');
     });
 
     menuLinks.forEach(link => {
         link.addEventListener('click', function() {
             menu.classList.remove('active');
+            menuIcon.classList.remove('rotated');
         });
     });
 });
