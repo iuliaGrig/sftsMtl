@@ -99,11 +99,13 @@ a:visited {
     
     .dropMenuIcon {
         cursor: pointer;
-        padding: 10px;
         z-index: 1100;
+        padding: 10px;
         border-left: 0.2em solid #f65f5f;
+        transition: transform 0.3s ease;
+        position: relative;
     }
-    
+
     .dropMenu {
         position: fixed;
         display: none;
@@ -137,6 +139,11 @@ a:visited {
         display: block;
         padding: 10px 10px 60px 10px;
         margin: 0;
+    }
+
+    .dropMenuIcon.rotated {
+        transform: rotate(90deg);
+        border-left: none;
     }
 }
 
