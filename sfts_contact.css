@@ -1,0 +1,13 @@
+#contactInfo {
+    margin-top: 154px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#contactTitle {
+    font-family: "Satisfy", serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: #f65f5f;
+}
