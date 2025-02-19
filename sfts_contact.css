@@ -11,3 +11,16 @@
     font-weight: 400;
     color: #f65f5f;
 }
+
+.contactInformation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 1069px) {
+    .googleForms iframe {
+        transform: (scale(0.5));
+        max-width: 90%;
+    }
+}
